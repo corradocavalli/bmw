@@ -5,7 +5,19 @@ VisualStudioVersion = 12.0.30324.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{0B589CA6-9836-4F4C-9999-F6BC2E1EC36F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bmw.Core", "Bmw.Core\Bmw.Core.csproj", "{75034AE9-C5E8-4BF7-AC2A-464426D23331}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gaia.Network.Core", "Bmw.Core\Gaia.Network.Core.csproj", "{75034AE9-C5E8-4BF7-AC2A-464426D23331}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bmw.DataServices.Core", "Bmw.DataServices.Core\Bmw.DataServices.Core.csproj", "{440C4EC3-FBE8-4565-A495-A547D56945E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{63A3F598-E83A-4DE7-BC3D-92D20C050092}"
+	ProjectSection(SolutionItems) = preProject
+		Config\config.txt = Config\config.txt
+		info.txt = info.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{B2ED0FBB-1158-49D3-B658-439B77D7AAFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService", "DataService\DataService.csproj", "{6654F2B9-56FC-4628-9F9E-EB4B11698818}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +29,21 @@ Global
 		{75034AE9-C5E8-4BF7-AC2A-464426D23331}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75034AE9-C5E8-4BF7-AC2A-464426D23331}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75034AE9-C5E8-4BF7-AC2A-464426D23331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440C4EC3-FBE8-4565-A495-A547D56945E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440C4EC3-FBE8-4565-A495-A547D56945E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440C4EC3-FBE8-4565-A495-A547D56945E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440C4EC3-FBE8-4565-A495-A547D56945E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6654F2B9-56FC-4628-9F9E-EB4B11698818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6654F2B9-56FC-4628-9F9E-EB4B11698818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6654F2B9-56FC-4628-9F9E-EB4B11698818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6654F2B9-56FC-4628-9F9E-EB4B11698818}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{75034AE9-C5E8-4BF7-AC2A-464426D23331} = {0B589CA6-9836-4F4C-9999-F6BC2E1EC36F}
+		{440C4EC3-FBE8-4565-A495-A547D56945E4} = {0B589CA6-9836-4F4C-9999-F6BC2E1EC36F}
+		{6654F2B9-56FC-4628-9F9E-EB4B11698818} = {B2ED0FBB-1158-49D3-B658-439B77D7AAFF}
 	EndGlobalSection
 EndGlobal

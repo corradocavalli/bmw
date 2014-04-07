@@ -1,0 +1,4 @@
+{
+	"domain":"test.bmwucportal.it",
+	"timeout": "10"
+}
